@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.2.2"
+ruby "3.3.3"
 
 gem "rails", "~> 7.0.4", ">= 7.0.4.3"
 gem "sprockets-rails"
@@ -44,7 +44,7 @@ end
 
 gem "devise", "~> 4.9"
 
-gem "tailwindcss-rails", "~> 2.0"
+
 
 gem "foreman", "~> 0.87.2"
 
@@ -52,6 +52,6 @@ gem "aws-sdk-s3", require: false
 
 gem "pagy", "~> 7.0"
 
-gem "devise", "~> 4.9"
+
 
 gem "tailwindcss-rails", "~> 2.7"
